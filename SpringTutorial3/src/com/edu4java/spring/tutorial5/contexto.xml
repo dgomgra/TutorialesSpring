@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+<bean id="footerForSign" class="com.edu4java.spring.tutorial5.FooterForSign">
+<!-- OPCION POR SET CON EL VALUE EN UN TAG DISTINTO -->
+<!-- 	<property name="name"> -->
+<!-- 		<value>david</value> -->
+<!-- 	</property> -->
+<!-- 		<property name="place"> -->
+<!-- 		<value>Spain</value> -->
+<!-- 	</property> -->
+	
+<!-- 	OPCION POR SET CON EL VALUE COMO PROPIEDAD -->
+<!-- 	<property name="name" value="david 2"/> -->
+<!-- 	<property name="place" value="Spain"/> -->
+
+<!-- OPCION POR CONSTRUCTOR CON EL VALUE EN UN TAG DISTINTO -->
+<!-- 	<constructor-arg> -->
+<!-- 		<value>david 3</value> -->
+<!-- 	</constructor-arg> -->
+<!-- 	<constructor-arg> -->
+<!-- 		<value>Spain</value> -->
+<!-- 	</constructor-arg> -->
+
+<!-- 	OPCION POR CONSTRUCTOR CON EL VALUE COMO PROPIEDAD -->
+	<constructor-arg value="david 4"/>
+	<constructor-arg value="spain"/>
+
+
+</bean> 
+ 
+</beans>

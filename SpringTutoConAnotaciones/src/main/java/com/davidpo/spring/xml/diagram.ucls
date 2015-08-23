@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.davidpo.spring.xml.Main" project="SpringTutoConAnotaciones" 
+    file="/SpringTutoConAnotaciones/src/main/java/com/davidpo/spring/xml/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="199" x="104" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.davidpo.spring.xml.IF_DecirNombre" project="SpringTutoConAnotaciones" 
+    file="/SpringTutoConAnotaciones/src/main/java/com/davidpo/spring/xml/IF_DecirNombre.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="117" x="343" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="com.davidpo.spring.xml.DecirNombre" project="SpringTutoConAnotaciones" 
+    file="/SpringTutoConAnotaciones/src/main/java/com/davidpo/spring/xml/DecirNombre.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="137" x="343" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="4">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

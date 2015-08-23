@@ -8,7 +8,7 @@ public class Hello {
 	}
 
 	public void decirHola(){
-		System.out.println("Hola " + nombre);
+		System.out.println("Hola como estas " + nombre);
 		
 		System.out.println("Otro cambio");
 	}
